@@ -5,11 +5,11 @@ import { cn } from "~/lib/utils";
 export const NavItems = () => {
   return (
     <section className="nav-items">
-      <Link to="" className="link-logo">
+      <Link to="" className="link-logo  ">
         <img src="/assets/icons/logo.svg" alt="logo" className="size-7" />
         <h1>Tourvisto</h1>
       </Link>
-      <hr />
+      <hr className="text-[#ECF2EF] " />
       <div className="pt-9">
         {sidebarItems.map(({ id, icon, label, href }) => (
           <div className="pt-3.5">
@@ -34,7 +34,7 @@ export const NavItems = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col  mt-auto mb-6">
+      <div className="flex flex-col  mt-auto mb-8">
         <div className="flex h-full gap-2 items-center">
           <img
             src="/assets/images/james.webp"
