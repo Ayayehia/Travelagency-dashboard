@@ -34,29 +34,26 @@ export const NavItems = () => {
           </div>
         ))}
       </div>
-      {/*  */}
-      <div className="flex flex-col gap-4 mt-auto mb-6">
-        <div className="flex h-full">
+      <div className="flex flex-col  mt-auto mb-6">
+        <div className="flex h-full gap-2 items-center">
           <img
-            src="/assets/icons/users.svg"
+            src="/assets/images/james.webp"
             alt="User avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <div className="flex flex-col gap-1">
-            <h2>Aya Nader</h2>
-            <p>aya@gmail.com</p>
+          <div className="flex flex-col gap-1 overflow-hidden">
+            <h2 className="font-semibold">Aya Nader</h2>
+            <p className="truncate w-[120px] text-sm">aya@gmail.com</p>
           </div>
           <button>
             <img
               src="/assets/icons/logout.svg"
               alt="Logout"
-              className="w-5 h-5"
+              className="w-6 h-6"
             />
           </button>
         </div>
       </div>
-
-      {/*  */}
     </section>
   );
 };
