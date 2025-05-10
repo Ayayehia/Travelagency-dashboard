@@ -1,9 +1,9 @@
-import React from "react";
+import { Header } from "./components/dashboard/Header";
 
 const Dashboard = () => {
   return (
-    <div className="bg-black h-screen w-full flex flex-col items-center justify-center text-white">
-      <h1>Dashboard</h1>
+    <div className="  h-screen w-full p-9 ">
+      <Header />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { NavItems } from "./components/NavItems";
 import { SidebarComponent } from "@syncfusion/ej2-react-navigations";
 const Adminlayout = () => {
   return (
-    <div className="admin-layout">
+    <div>
       <SidebarComponent width={270} enableGestures={false}>
         <NavItems />
       </SidebarComponent>
